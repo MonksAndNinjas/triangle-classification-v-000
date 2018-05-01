@@ -12,6 +12,8 @@ class Triangle
     elsif @length_1 == @length_2 or @length_1 == @length_3 or @length_2 == @length_3
       :isosceles
     elsif @length_1 != @length_2 and @length_1 != @length_3 and @length_2 != @length_3
+      :scalene
+    end
   end
 
 end
