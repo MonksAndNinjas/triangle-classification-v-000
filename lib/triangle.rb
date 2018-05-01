@@ -8,6 +8,7 @@ class Triangle
       raise TriangleError
     elsif (@length_1+@length_2<=@length_3) or (@length_1+@length_3<=@length_2) or (@length_2+@length_3<=@length_1)
       raise TriangleError
+    end
   end
 
   def kind
